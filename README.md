@@ -23,7 +23,9 @@ A Shell Script for easy database reseting and importing for Pantheon and Drupal 
 
     -d, --database <name>
         The name of the database to use
-        (Optional. Will attempt to determine the database name from the SQL file name if none is specified.)
+        (Optional)
+          Will attempt to determine the database name from the
+          SQL file name if none is specified.
 
     -u, --user <uname>
         The user to use when accessing mysql (Optional)
@@ -31,8 +33,10 @@ A Shell Script for easy database reseting and importing for Pantheon and Drupal 
     -p, --password <pass>
         The password to use when accessing mysql (Optional)
 
-    -m, --set-dev-mode <path>  
-        Run the specified set_dev_mode script automatically after the import is complete (Optional)
+    -m, --set-dev-mode <path>
+        (Optional)
+          Run the specified set_dev_mode script automatically
+          after the import is complete
 
 ## Release History
 
