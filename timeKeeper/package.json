@@ -1,0 +1,15 @@
+{
+  "name": "timeKeeper",
+  "version": "0.0.1",
+  "description": "Displays an ascii timer in the cli for showing the user progress during long running shell scripts in which you can not determine when the command will return. I.E a progress bar will not work.",
+  "main": "timeKeeper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "progress"
+  ],
+  "author": "Ray Imber <ray.imber@galavantier.com> (http://www.galvantier.com/)",
+  "license": "ISC"
+}

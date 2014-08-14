@@ -1,0 +1,26 @@
+{
+  "name": "reset_database",
+  "version": "0.0.1",
+  "description": "A Shell Script for easy database reseting and importing for Pantheon and Drupal based sites",
+  "main": "reset_database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pantheon",
+    "Drupal",
+    "CLI"
+  ],
+  "author": "Ray Imber <ray.imber@galavantier.com> (http://www.galvantier.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs" : ">=0.3.0",
+    "commander" : ">=2.3.0"
+  },
+  "bin" : { "reset_database" : "./reset_database.js" },
+  "preferGlobal" : true,
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Galavantier/daterbase.git"
+  }
+}
