@@ -27,12 +27,12 @@ if(typeof commander.database == 'undefined') {
   console.log('Using Database "' + commander.database + '"\n');
 }
 
-console.log("Reseting the Database\n");
+console.log("resetting the Database\n");
 timeKeeper.start();
 exec(mysqlConnectString + '-e "DROP DATABASE IF EXISTS ' + commander.database + '; CREATE DATABASE ' + commander.database + ' CHARACTER SET utf8 COLLATE utf8_general_ci;"', {silent:true, async:true}, function(code, output) {
   timeKeeper.stop();
   if(code !== 0) {
-    console.log('\nError Reseting the Database');
+    console.log('\nError resetting the Database');
     console.log(output);
     return;
   }
