@@ -3,9 +3,14 @@ daterbase
 
 A Shell Script for easy database reseting and importing for Pantheon and Drupal based sites
 
+### Requirements
+* Nodejs and npm
+
 ## Installation
 
-  `sudo npm install -g git@github.com:Galavantier/daterbase.git`
+```sudo npm install -g shelljs```
+```git clone -g git@github.com:Galavantier/daterbase.git```
+```sudo npm install -g ./daterbase```
 
 ## Usage
 
