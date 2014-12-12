@@ -5,7 +5,7 @@ A Shell Script for easy database reseting and importing for Pantheon and Drupal 
 
 ## Installation
 
-  `npm install -g https://github.com/Galavantier/daterbase.git`
+  `sudo npm install -g git@github.com:Galavantier/daterbase.git`
 
 ## Usage
 
